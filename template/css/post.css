@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f8f9fa;
+}
+
+.card-footer {
+    display: flex;
+}
+
+.card-footer p {
+    margin-bottom: 0;
+    margin-right: 15px;
+}
+
+.form {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.page,
+.files {
+    max-width: 65%;
+    border-radius: 30px;
+    padding: 15px 30px;
+    background-color: white;
+}
+
+.files {
+    max-width: 30%;
+    margin-left: auto;
+}
+
+.files-list {
+    margin: 28px 0 24px 0;
+}
+
+.card-footer {
+    padding: 0;
+    margin-bottom: 12px;
+    background-color: white;
+    border: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+    font-size: 17px;
+    margin-top: 6px;
+}
+
+a {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.btn {
+    color: black;
+    border-color: black;
+}
+
+.form .btn {
+    margin-bottom: auto;
+    margin-left: auto;
+    width: 160px;
+    height: 34px;
+    ;
+}
+
+.date {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.navbar {
+    margin-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav {
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.main {
+    padding: 40px;
+    flex-direction: column;
+    display: flex;
+    background-color: #efefef;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+
+
+.mb-3 {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem !important;
+}
